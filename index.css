@@ -1,0 +1,84 @@
+menu {
+    Display : flex ;
+    Justify-content : space-between ;
+    Align-items : center ;
+    Background-color : skyblue ;
+    Padding : 20px ;
+    Box-shadow : 0 2px 4px rgba(0, 0, 0, 0.1) ;
+  }
+  
+  .menu-list {
+    List-style-type : none ;
+    Margin : 0 ;
+    Padding : 0 ;
+  }
+  menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    padding: 20px;
+    box-shadow: 0;
+
+    body  {
+  
+        Background-color : skyblue ;
+        margin: 0;
+        padding-left: 0;
+        Padding : 200px ;
+      }
+      Header {
+        Background-color : lightskyblue ;
+        Padding : 30px ;
+        Text-align : center ;
+      }
+      
+      #company-name {
+        Font-size : 32px ;
+        Color : orange ;
+        Margin : 0 auto ;
+      }
+      
+  footer {
+    Background-color :white;
+    Padding : 20px ;
+    Text-align : center ;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+    text-decoration-line: none;
+    text-align: justify;
+  }
+  
+  .right {
+    text-align: right;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }

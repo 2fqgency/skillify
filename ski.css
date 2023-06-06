@@ -1,0 +1,359 @@
+menu {
+    Display : flex ;
+    Justify-content : space-between ;
+    Align-items : center ;
+    Background-color : skyblue ;
+    Padding : 20px ;
+    Box-shadow : 0 2px 4px rgba(0, 0, 0, 0.1) ;
+  }
+  
+  .menu-list {
+    List-style-type : none ;
+    Margin : 0 ;
+    Padding : 0 ;
+  }
+  menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    padding: 20px;
+    box-shadow: 0
+  }
+  body  {
+  
+    Background-color : skyblue ;
+  }
+  
+    .profile-image-container {
+    position: relative;
+    width: 100px; /* Modifier la taille selon vos besoins */
+    height: 100px; /* Modifier la taille selon vos besoins */
+    overflow: hidden;
+  }
+  
+  #profile-image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover > .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  #hidden-content {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  Header {
+    Background-color : lightskyblue ;
+    Padding : 30px ;
+    Text-align : center ;
+  }
+  
+  #company-name {
+    Font-size : 32px ;
+    Color : orange ;
+    Margin : 0 auto ;
+  }
+  
+  
+  
+  
+  .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .menu-line {
+    width: 25px;
+    height: 3px;
+   Background-color: orange;
+    margin: 5px 0;
+  }
+  
+  .menu-items {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-items li {
+    margin: 10px 0;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #333;
+  }
+     .contenu {
+       display: none;
+     }
+      Table {
+        Width : 100% ;
+        Border-collapse : collapse ;
+      }
+      Th, td {
+        Padding : 8px ;
+        Text-align : left ;
+        Border-bottom : 1px solid #ddd ;
+        Border-right : 1px solid #ddd ; /* Ajout de la bordure verticale */
+      }
+  
+  
+      Th :last-child,
+      Td :last-child {
+        Border-right : none ; /* Suppression de la bordure verticale pour la dernière colonne */
+      }
+  
+      Th {
+        Background-color : yellow ;
+      }
+  Td {
+        Background-color : orange;
+      }
+  
+  <title>Page d’accueil attrayante</title>
+    <style>
+      Body {
+        Font-family : Arial, sans-serif ;
+        Background-color : #f4f4f4 ;
+        Margin : 0 ;
+        Padding : 0 ;
+      }
+      
+      H1 {
+        Font-size : 48px ;
+        Margin-bottom : 16px ;
+      }
+      P {
+        Font-size : 24px ;
+        Margin-bottom : 24px ;
+      }
+      .cta-button {
+        Padding : 12px 24px ;
+        Background-color : #ff6600 ;
+        Color : white ;
+        Font-size : 18px ;
+        Text-decoration : none ;
+        Border-radius : 4px ;
+      }
+      .cta-button :hover {
+        Background-color : #ff4400 ;
+      }
+      .features {
+        Background-color : #ffffff ;
+        Padding : 40px ;
+        Text-align : center ;
+      }
+      .feature-item {
+        Display : inline-block ;
+        Margin : 16px ;
+      }
+      .feature-icon {
+        Font-size : 48px ;
+        Color : #ff6600 ;
+      }
+      .feature-title {
+        Font-size : 24px ;
+        Margin-bottom : 8px ;
+      }
+      .feature-description {
+        Font-size : 18px ;
+      }
+       </style>
+  <style>
+      .truncate {
+        Overflow : hidden ;
+        Text-overflow : ellipsis ;
+        White-space : nowrap ;
+        Max-width : 300px ; /* Ajustez la largeur maximale selon vos besoins */
+      }
+      .show-more {
+        Color : #007bff ; /* Couleur du lien « Lire la suite » */
+        Cursor : pointer ;
+      }
+      .full-text {
+        White-space : normal ;
+      }
+    </style>
+  .video-container {
+        Position : relative ;
+        Width : 100% ;
+        Padding-bottom : 56.25% ; /* Ratio 16 :9 pour la vidéo (changez cette valeur selon vos besoins) */
+        Height : 0 ;
+      }
+      .video-container iframe {
+        Position : absolute ;
+        Top : 0 ;
+        Left : 0 ;
+        Width : 100% ;
+        Height : 100% ;
+      }
+      body {
+        margin: 0;
+        padding-left: 0;
+        Padding : 200px ;
+      }
+      
+      .section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+      }
+      
+  
+  footer {
+    Background-color :white;
+    Padding : 20px ;
+    Text-align : center ;
+  }
+  
+  .word-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .word {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .icon {
+    font-size: 12px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+    text-decoration-line: none;
+    text-align: justify;
+  }
+  
+  .right {
+    text-align: right;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+     /* Style pour l’entête */
+     .header {
+      Background-color : #3b5998 ;
+      Color : white ;
+      Padding : 100px ;
+    }
+    
+    /* Style pour la photo de profil */
+    .profile-pic {
+      Width : 200px ;
+      Height : 200px ;
+      background-image: url(bureau_ski_image_01.jpg);
+      background-size: cover;
+      Border-radius : 50% ;
+      
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+    }
+    
+    .photo {
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+      border-radius: 20%;
+    }
+    
+    .photo img {
+      width: 100%;
+      height: auto;
+    }
+    .long-text {
+      max-height: 200px; /* Hauteur maximale du texte avant de le tronquer */
+      overflow: hidden; /* Cacher le texte excédentaire */
+      position: relative;
+    }
+    
+    .read-more {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: #eee;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: #000000;
+    
+    }
+
+    
